@@ -17,6 +17,6 @@ addGlobal "build_time" (System.DateTime.UtcNow.ToString("yyyyMMddHHmmss"))
 
 // Example: expose social links as a structured array (usable in Nunjucks).
 addGlobal "socials" [|
-    {| label = "GitHub";  url = "https://github.com/zest-ssg"; icon = "github" |}
-    {| label = "Twitter"; url = "https://twitter.com/zest_ssg"; icon = "twitter" |}
+    {| label = "GitHub";  url = "https://github.com/exyone-js"; icon = "github" |}
+    {| label = "Twitter"; url = "https://twitter.com/exyone_js"; icon = "twitter" |}
 |]

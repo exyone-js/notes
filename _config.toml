@@ -2,10 +2,10 @@
 # Ported from hugo-theme-terminal (https://github.com/panr/hugo-theme-terminal).
 # See https://github.com/zest-ssg/docs for the full configuration reference.
 
-title = "Terminal"
-base_url = "https://example.com"
-description = "A minimal, fast, and responsive theme for Zest SSG."
-author = "Zest"
+title = "Exyone's Notes"
+base_url = "https://notes.exyon.ee"
+description = "Exyone's Essay Notes."
+author = "exyone"
 language = "en"
 
 # Layout files use the .njk extension, which are always rendered through the

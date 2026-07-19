@@ -21,7 +21,7 @@ let fg65 = color-mix(in srgb, var(--foreground) 65%, transparent)
 .post
   width = 100%
   text-align = left
-  padding = 30px 0
+  padding = 0 0 30px 0
   &:not(:last-of-type)
     border-bottom = 1px solid fg10
 
@@ -37,9 +37,10 @@ let fg65 = color-mix(in srgb, var(--foreground) 65%, transparent)
 .post-title
   position = relative
   color = var(--accent)
+  line-height = 1.6
   margin-top = 0 !important
-  margin-bottom = 15px !important
-  padding-bottom = 15px
+  margin-bottom = 25px !important
+  padding-bottom = 20px
   border-bottom = 3px dotted var(--accent)
   text-decoration = none !important
   &::after

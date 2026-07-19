@@ -3,7 +3,7 @@
 
 <div class="posts posts-index">
   <h2>Posts</h2>
-  <p>All posts published on this site, newest first.</p>
+  <p>All posts published on this site, newest first. Includes bundled Zest &amp; Terminal theme demos.</p>
 
   {% set posts = pages | by_collection("posts", true) | sort("date") | reverse %}
   {% for p in posts %}

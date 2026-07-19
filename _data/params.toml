@@ -1,7 +1,7 @@
 # Theme parameters for the Terminal theme.
 # Exposed to templates as `site.params.*` (e.g. `site.params.subtitle`).
 
-subtitle = "A minimal, fast, and responsive theme for Zest."
+subtitle = "Personal notes &amp; English translations by the Zest SSG author."
 dateFormat = "MMM d, yyyy"
 showReadTime = true
 fullWidthTheme = false
